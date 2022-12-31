@@ -28,3 +28,7 @@ A simple but effective C2 Server for Zamok
 4. The C2 breaks down the request and gets the 2 values : the id and the key
 5. It saves these values to an SQLite database locally 
 6. It displays a banner on the terminal, with the details of the new victim machine
+
+## Warning :
+This project is for educational purposes only, and I will not be responsible for \
+anything malicious you do with it 
