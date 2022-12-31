@@ -30,6 +30,6 @@ You can now start it by simply running :
 5. It saves these values to an SQLite database locally 
 6. It displays a banner on the terminal, with the details of the new victim machine
 
-## Warning :
+## DISCLAIMER :
 This project is for educational purposes only, and I will not be responsible for \
 anything malicious you do with it !
