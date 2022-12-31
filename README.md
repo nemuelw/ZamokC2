@@ -11,7 +11,7 @@ A simple but effective C2 Server for Zamok
     ```
     go build -o zamokc2
     ```
-## You can now start it by simply running :
+You can now start it by simply running :
     ```
     ./zamokc2
     ```
